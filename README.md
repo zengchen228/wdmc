@@ -15,17 +15,20 @@
 
 ### Start transmission, Please follow steps below: 
 - step 1, start it one and kill it:
-`/DataVolume/opt/bin/transmission-daemon -g /DataVolume/opt/var/.trsettings \
+
+$ /DataVolume/opt/bin/transmission-daemon -g /DataVolume/opt/var/.trsettings \
     -t -r 0.0.0.0 -p 9091 -u <username> -v <password> -w /DataVolume/shares/Downloads
-  
-killall transmission-daemon`
+
+killall transmission-daemon
   
 - step 2, modfiy the settings.json in /DataVolume/opt/var/.trsettings, change rpc-whitelist value to '0.0.0.0':
+
 .....
 "rpc-whitelist": "0.0.0.0",
 .....
   
 - step 3, start it , then you can start transmission with the lite-command:
+
 `/DataVolume/opt/bin/transmission-daemon -g /DataVolume/opt/var/.trsettings`
   
 - step 4: 
