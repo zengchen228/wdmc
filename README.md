@@ -9,7 +9,7 @@
 - ps3netsrv
 
 ### Install:
-- Connetc WDMC with ssh and execute the command below:
+- Connect WDMC with ssh and execute the command below:
 
 `tar zxvf opt-{version}.tar.gz -C /DataVolume`
 
