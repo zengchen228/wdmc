@@ -27,6 +27,7 @@
 .....
   
 - step 3, start it , then you can start transmission with the lite-command:
+`export TRANSMISSION_WEB_HOME=/DataVolume/opt/share/transmission/web`
 
 `/DataVolume/opt/bin/transmission-daemon -g /DataVolume/opt/var/.trsettings`
   
