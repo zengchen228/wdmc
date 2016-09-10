@@ -23,7 +23,7 @@
 - step 2, modfiy the settings.json in /DataVolume/opt/var/.trsettings, change rpc-whitelist value to '0.0.0.0':
 
 .....
-"rpc-whitelist": "0.0.0.0",
+"rpc-whitelist-enabled": false,
 .....
   
 - step 3, start it , then you can start transmission with the lite-command:
